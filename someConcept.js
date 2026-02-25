@@ -48,10 +48,41 @@
 // console.log(arr2)
 // console.log(arr1)
 
+// function sum(...numbers){
+//  return numbers.reduce((a,b) => a + b,0)
+// }
+// 
+// 
+// function orderFood(callbacks){
+//  console.log("ordering food...")
+//  setTimeout(function() {
+//   console.log("Food is Ready")
+//   callbacks
+//  },3000)
+// }
+// 
+// 
+// function eatFood(){
+//  console.log("Eating Food...")
+// }
+// orderFood().then(eatFood);
 
-function sum(...numbers){
- return numbers.reduce((a,b) => a + b,0)
-}
+// function fetchData(){
+//  return new Promise((resolve) =>{
+//   setTimeout(() => {
+//    resolve("")
+//   },3000)
+//  },)
+// }
+// 
+// async function getData(){
+//  const data = await fetchData();
+//  console.log(data);
+// }
+// 
+// getData()
+
+
 
 
 
